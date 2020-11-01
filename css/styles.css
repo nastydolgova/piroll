@@ -1,0 +1,253 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+.main-header {
+  padding: 0 100px;
+}
+
+.main-menu {
+  padding-top: 40px;
+  padding-bottom: 180px;
+  position: relative;
+}
+
+.main-nav {
+  font-size: 12px;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+
+.header-wrp-txt {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.about {
+  padding: 100px 100px 100px 100px;
+}
+
+.about-txt {
+  padding: 40px 0;
+}
+
+.skills {
+  padding: 60px 100px 100px 100px;
+}
+
+.skills-div p {
+  font-size: 12px;
+  padding: 40px 0 20px;
+}
+
+.info {
+  background-color: #10c9c3;
+  padding: 0 100px;
+}
+
+.info-item {
+  margin: 0;
+  padding: 100px 0;
+}
+
+.info-item svg {
+  fill: #fff;
+}
+
+.info-item {
+  color: #fff;
+}
+
+.info-item div {
+  padding-left: 20px;
+}
+
+.info-item-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.info-item-txt {
+  font-size: 12px;
+}
+
+.img-item {
+  cursor: pointer;
+  padding: 0;
+}
+
+.our-work-title {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.our-work-txt {
+  padding-bottom: 60px;
+}
+
+.product {
+  padding: 100px;
+  background-color: #10c9c3;
+  margin-top: 100px;
+}
+
+.product-item:first-child {
+  padding-bottom: 50px;
+}
+
+.product-item {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.product-item svg {
+  fill: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.product-item h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 25px 0;
+  color: #fff;
+  margin: 0;
+}
+
+.product-item span {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.slider-section {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact {
+  padding: 100px;
+}
+
+.main-footer {
+  padding: 100px;
+  background-color: black;
+}
+
+.link-mail {
+  display: block;
+}
+
+.footer-1 h5 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-1 span {
+  margin: 0;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+}
+
+.footer-2 a,
+span {
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer-3 ul,
+.footer-4 ul {
+  list-style-type: none;
+}
+
+.footer-list-link {
+  color: #fff;
+  font-size: 15px;
+}
+
+.bg {
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-item:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.product-item:active {
+  opacity: 0.8;
+}
+
+.contact-form input {
+  margin: 20px 0;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.button-form {
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.burger__button {
+  display: none;
+}
+
+.open-nav {
+  position: fixed;
+  top: 45px;
+  right: 125px;
+  display: block;
+}
+
+@media (max-width: 991.98px) {
+  .product-item {
+    margin: 30px 0;
+  }
+
+  nav {
+    display: none;
+    z-index: 100;
+  }
+
+  .bg-nav {
+    background-color: #10c9c3;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    transition:  width 500ms ease-in-out;
+    border-left: 2px solid #ccc;
+    
+  }
+
+  .main-footer{
+      padding: 100px 20px;
+  }
+
+  .main-footer div{
+      padding-bottom: 20px;
+  }
+  
+  .partners{
+      padding: 20px;
+  }
+
+}
